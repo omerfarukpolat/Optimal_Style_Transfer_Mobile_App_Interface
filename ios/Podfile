@@ -1,4 +1,4 @@
-# Resolve react_native_pods.rb with node to allow for hoisting
+zzzzZzz# Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
     "react-native/scripts/react_native_pods.rb",
@@ -10,7 +10,7 @@ prepare_react_native_project!
 
 linkage = ENV['USE_FRAMEWORKS']
 if linkage != nil
-  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Framleceworks".green
   use_frameworks! :linkage => linkage.to_sym
 end
 
